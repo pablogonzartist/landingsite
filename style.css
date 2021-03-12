@@ -13,6 +13,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 button{
+        color: green;
         font-size: 2em;
         margin: 2em;
         transition-duration: 0.4s;
@@ -27,6 +28,8 @@ button:hover {
         background-color: #4CAF50; /* Green */
         color: white;
       }
+
+
 
 /* button ends here */
 .no-js .js {
