@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+    background: rgb(117, 117, 233);
+}
+
+body { display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+min-height: 100%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+        font-size: 2em;
+        margin: 2em;
+        transition-duration: 0.4s;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+.one {
+    font-size: 10em;
+}
+
+button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+      }
+
+/* button ends here */
+.no-js .js {
+        display: none;
+     }
+     
